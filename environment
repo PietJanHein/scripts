@@ -1,0 +1,17 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+export MAKEFLAGS '-j 17'
+#export QT_QPA_PLATFORMTHEME=qt5ct
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.i686.json:/usr/share/vulkan/icd.d/radeon_icd.x86_64.json
+export EDITOR=vim
+export XCURSOR_THEME=Oxygen_White
+export XCURSOR_SIZE=10
+
+#export QT_STYLE_OVERRIDE=kvantum
+#export LD_PRELOAD=/usr/lib/libstdc++.so
+#export LD_LIBRARY_PATH=/usr/lib/xorg/modules/dri/
+#export _JAVA_AWT_WM_NONREPARENTING=1 useful for MATLAB, has to do with reparenting
